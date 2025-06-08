@@ -1,0 +1,58 @@
+﻿@model MedicalSystem.ViewModels.PatientDashboardVM
+@{
+    ViewData["Title"] = "Patient Dashboard";
+}
+
+<h2>Patient Dashboard - @Model.Patient.FirstName @Model.Patient.LastName</h2>
+
+<div class="card mb-3">
+    <div class="card-header bg-primary text-white">Patient Information</div>
+    <div class="card-body">
+        <p><strong>OIB:</strong> @Model.Patient.OIB</p>
+        <p><strong>Full Name:</strong> @Model.Patient.FirstName @Model.Patient.LastName</p>
+        <p><strong>Date of Birth:</strong> @Model.Patient.DateOfBirth.ToShortDateString()</p>
+        <p><strong>Gender:</strong> @Model.Patient.Gender</p>
+        <a asp-action="ExportPatientData" asp-route-oib="@Model.Patient.OIB" class="btn btn-success float-end">
+            Export to CSV
+        </a>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-header bg-success text-white">
+        Medical History <a href="@Url.Action("List", "MedicalHistory", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end ">View All</a>
+        <a href="@Url.Action("Create", "MedicalHistory", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end me-3">Create New</a>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var history in Model.MedicalHistorySummary)
+        {
+            <li class="list-group-item">@history.DiseaseName - @history.StartDate.ToShortDateString() to @(history.EndDate?.ToShortDateString() ?? "Ongoing")</li>
+        }
+    </ul>
+</div>
+
+<div class="card mb-3">
+    <div class="card-header bg-danger text-white">
+        Prescriptions <a href="@Url.Action("List", "Prescription", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end ">View All</a>
+        <a href="@Url.Action("Create", "Prescription", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end me-3">Create New</a>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var prescription in Model.PrescriptionSummary)
+        {
+            <li class="list-group-item">@prescription.DrugName - @prescription.Dose (@prescription.Date.ToShortDateString())</li>
+        }
+    </ul>
+</div>
+
+<div class="card mb-3">
+    <div class="card-header bg-warning text-dark">
+        Checkups <a href="@Url.Action("List", "Checkup", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end ">View All</a>
+        <a href="@Url.Action("Create", "Checkup", new { oib = Model.Patient.OIB })" class="btn btn-light btn-sm float-end me-3">Create New</a>
+    </div>
+    <ul class="list-group list-group-flush">
+        @foreach (var checkup in Model.CheckupSummary)
+        {
+            <li class="list-group-item">@checkup.TypeDescription - @checkup.DateTime.ToShortDateString()</li>
+        }
+    </ul>
+</div>

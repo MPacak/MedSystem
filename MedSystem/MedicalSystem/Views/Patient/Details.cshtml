@@ -1,0 +1,31 @@
+﻿@model MedicalSystem.ViewModels.PatientVM
+@{
+    ViewData["Title"] = "Patient Details";
+}
+
+<h2>Patient Details</h2>
+
+<div class="card p-3 shadow-lg">
+    <dl class="row">
+        <dt class="col-sm-3">OIB:</dt>
+        <dd class="col-sm-9">@Model.OIB</dd>
+
+        <dt class="col-sm-3">First Name:</dt>
+        <dd class="col-sm-9">@Model.FirstName</dd>
+
+        <dt class="col-sm-3">Last Name:</dt>
+        <dd class="col-sm-9">@Model.LastName</dd>
+
+        <dt class="col-sm-3">Date of Birth:</dt>
+        <dd class="col-sm-9">@Model.DateOfBirth.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Gender:</dt>
+        <dd class="col-sm-9">@Model.Gender</dd>
+    </dl>
+
+    <div class="mt-3">
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        <a asp-action="Edit" asp-route-oib="@Model.OIB" class="btn btn-warning">Edit</a>
+        <a asp-action="Index" asp-controller="PatientDashboard" asp-route-oib="@Model.OIB" class="btn btn-primary">Go to Dashboard</a>
+    </div>
+</div>

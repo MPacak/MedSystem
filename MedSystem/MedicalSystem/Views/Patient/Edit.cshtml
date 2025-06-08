@@ -1,0 +1,39 @@
+﻿@model MedicalSystem.ViewModels.PatientVM
+@{
+    ViewData["Title"] = "Edit Patient";
+}
+
+<h2>Edit Patient</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="OIB" />
+
+    <div class="mb-3">
+        <label class="form-label">First Name</label>
+        <input asp-for="FirstName" class="form-control" required />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Last Name</label>
+        <input asp-for="LastName" class="form-control" required />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Date of Birth</label>
+        <input asp-for="DateOfBirth" type="date" class="form-control" required />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Gender</label>
+        <select asp-for="Gender" asp-items="ViewBag.Genders" class="form-select">
+            <option value="">-- Select Gender --</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

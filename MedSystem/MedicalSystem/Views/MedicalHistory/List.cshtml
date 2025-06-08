@@ -1,0 +1,38 @@
+﻿@model List<MedicalSystem.ViewModels.MedicalHistoryVM>
+@{
+    ViewData["Title"] = "Medical History";
+}
+
+
+<h2>Medical History</h2>
+<a asp-action="Create" asp-route-oib="@((Model.Any() ? Model.First().PatientOIB : ViewBag.PatientOIB))" class="btn btn-success mt-3">
+    Add New
+</a>
+
+<table class="table table-bordered">
+    <thead>
+    <th>Disease</th>
+    <th>Start Date</th>
+    <th>End Date</th>
+    <th>Actions</th>
+    </thead>
+    <tbody>
+        @foreach (var history in Model)
+        {
+            <tr>
+                <td>@history.DiseaseName</td>
+                <td>@history.StartDate.ToShortDateString()</td>
+                <td>@(history.EndDate?.ToShortDateString() ?? "Ongoing")</td>
+                <td>
+                    @if(history.EndDate == null) {
+                        <a asp-action="Edit" asp-route-id="@history.Id" class="btn btn-warning btn-sm">Edit</a>
+                    }
+                   
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="PatientDashboard" asp-route-oib="@((Model.Any() ? Model.First().PatientOIB : ViewBag.PatientOIB))" class="btn btn-primary">Go back to Dashboard</a>
+

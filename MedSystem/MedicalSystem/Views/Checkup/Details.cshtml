@@ -1,0 +1,36 @@
+﻿@model MedicalSystem.ViewModels.CheckupVM
+@{
+    ViewData["Title"] = "Checkup Details";
+}
+
+<h2>Checkup Details</h2>
+
+<div class="mb-3">
+    <label class="fw-bold">Checkup Type:</label>
+    <p>@Model.TypeDescription</p>
+</div>
+
+<div class="mb-3">
+    <label class="fw-bold">Date and Time:</label>
+    <p>@Model.DateTime.ToString("yyyy-MM-dd HH:mm")</p>
+</div>
+
+<div class="mb-3">
+    <label class="fw-bold">Patient OIB:</label>
+    <p>@Model.PatientOIB</p>
+</div>
+
+<div class="mb-3">
+    <label class="fw-bold">Checkup Image:</label>
+    <br>
+    @if (!string.IsNullOrEmpty(Model.PicturePath))
+    {
+        <img src="@Model.PicturePath" alt="Checkup Image" class="img-fluid" style="max-width: 300px; max-height: 300px; border-radius: 5px;" />
+    }
+    else
+    {
+        <p>No Image Available</p>
+    }
+</div>
+
+<a asp-action="List" asp-route-oib="@Model.PatientOIB" class="btn btn-secondary">Back to List</a>

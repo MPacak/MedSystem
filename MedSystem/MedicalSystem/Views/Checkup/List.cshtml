@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MedicalSystem.ViewModels.CheckupVM>
+@{
+    ViewData["Title"] = "Checkup History";
+}
+
+<h2>Checkup History</h2>
+
+<a asp-action="Create" asp-route-oib="@((Model.Any() ? Model.First().PatientOIB : ViewBag.PatientOIB))" class="btn btn-success mt-3">Schedule New</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var checkup in Model)
+        {
+            <tr>
+                <td>@checkup.TypeDescription</td>
+                <td>@checkup.DateTime.ToShortDateString()</td>
+      
+                <td>
+                    @if (checkup.PicturePath == null)
+                    {
+                        <a asp-action="Edit" asp-route-id="@checkup.Id" class="btn btn-warning btn-sm">Upload Image</a>
+                    }
+                    <a asp-action="Details" asp-route-id="@checkup.Id" class="btn btn-info btn-sm">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="PatientDashboard" asp-route-oib="@((Model.Any() ? Model.First().PatientOIB : ViewBag.PatientOIB))" class="btn btn-primary">Go back to Dashboard</a>
+
+
+

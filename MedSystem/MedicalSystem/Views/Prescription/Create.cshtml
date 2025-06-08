@@ -1,0 +1,64 @@
+﻿@model MedicalSystem.ViewModels.PrescriptionVM
+@{
+    ViewData["Title"] = "Create Prescription";
+}
+
+<h2>Create Prescription</h2>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" asp-for="PatientOIB" />
+
+    <div class="mb-3">
+        <label class="form-label">Select Drug</label>
+        <select asp-for="DrugName" asp-items="ViewBag.Drugs" class="form-select" id="drugSelect" onchange="doseTypeShow()">
+            <option value="">-- Select a Drug --</option>
+        </select>
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div id="doseTypeContainer" class="mb-3" style="display: none;">
+        <label  class="form-label" >Dose Type</label>
+        <input type="text" id="doseType" class="form-control" readonly />
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label">Dosage Instructions</label>
+        <input asp-for="Dose" class="form-control" placeholder="Enter dosage" />
+        <span asp-validation-for="Dose" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Prescription Date</label>
+        <input asp-for="Date" id="dateTimePicker" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="List" asp-route-oib="@Model.PatientOIB" class="btn btn-secondary">Cancel</a>
+</form>
+<script>
+    flatpickr("#dateTimePicker", {
+        dateFormat: "Y-m-d",
+        defaultDate: "today",
+        minDate: "today",
+        maxDate: "today"
+    });
+
+    function doseTypeShow() {
+         var drugName = document.getElementById("drugSelect").value;
+         console.log(drugName);
+         console.log("it entered the function");
+         if (drugName === "") {
+             document.getElementById("doseTypeContainer").style.display = "none";
+             return;
+         }
+
+         fetch(`/Prescription/GetDoseType?drugName=${drugName}`)
+             .then(response => response.json())
+             .then(data => {
+                 document.getElementById("doseType").value = data;
+                 document.getElementById("doseTypeContainer").style.display = "block"; 
+             })
+             .catch(error => console.error("Error fetching dose type:", error));
+     }
+</script>

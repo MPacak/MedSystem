@@ -1,0 +1,81 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<MedicalSystem.ViewModels.PatientVM>
+
+@{
+    ViewData["Title"] = "Patients";
+}
+
+<h2>Patients</h2>
+
+<div class="text-end mb-3">
+    <a class="btn btn-success" asp-action="Create">
+        <i class="bi bi-plus-circle"></i> Create new patient
+    </a>
+</div>
+
+<form asp-action="Index" method="get" class="mb-3 d-flex">
+    <input id="searchTerm" type="text" name="searchTerm" value="@ViewBag.SearchTerm" class="form-control me-2" placeholder="Search by OIB or Last Name" />
+    <button type="submit" class="btn btn-primary">Search</button>
+    <button onclick="resetSearch()" class="btn btn-secondary">Reset</button>
+</form>
+<div class="mb-3">
+    <label for="pageSize">Show:</label>
+    <select id="pageSize" class="form-select" onchange="updatePageSize()">
+        <option value="5" >5</option>
+        <option value="10" >10</option>
+        <option value="20" >20</option>
+    </select>
+    <button onclick="updatePageSize()" class="btn btn-secondary mt-3">Apply</button>
+</div>
+
+<table class="table table-bordered">
+    <tr>
+        <th>OIB</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Date of Birth</th>
+        <th>Gender</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var patient in Model)
+    {
+        <tr>
+            <td>@patient.OIB</td>
+            <td>@patient.FirstName</td>
+            <td>@patient.LastName</td>
+            <td>@patient.DateOfBirth.ToShortDateString()</td>
+            <td>@patient.Gender</td>
+            <td>
+                <a href="@Url.Action("Details", "Patient", new { oib = patient.OIB })" class="btn btn-primary btn-sm">View</a>
+                <a href="@Url.Action("Edit", "Patient", new { oib = patient.OIB })" class="btn btn-warning">Edit</a>
+                <a href="@Url.Action("Index", "PatientDashboard", new { oib = patient.OIB })" class="btn btn-warning">Dashboard</a>
+            </td>
+        </tr>
+
+    }
+</table>
+<div class="pagination-container">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+{
+    DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+    DisplayLinkToLastPage = PagedListDisplayMode.Always,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    DisplayLinkToIndividualPages = true,
+    MaximumPageNumbersToDisplay = 5,
+    UlElementClasses = new[] { "pagination", "justify-content-center" },
+    LiElementClasses = new[] { "page-item" },
+    PageClasses = new[] { "page-link" }
+})
+</div>
+<script>
+    function updatePageSize() {
+        var selectedSize = document.getElementById("pageSize").value;
+        window.location.href = '@Url.Action("Index", "Patient")' + '?pageSize=' + selectedSize;
+    }
+    function resetSearch() {
+        document.getElementById("searchTerm").value = "";
+        window.location.href = '@Url.Action("Index", "Patient")';
+    }
+</script>
