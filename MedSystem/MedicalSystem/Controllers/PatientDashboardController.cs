@@ -32,7 +32,6 @@ namespace MedicalSystem.Controllers
             var patient = _patientService.GetPatientByOIB(oib);
             if (patient == null) return NotFound();
             var checkupVMs = _mapper.Map<List<CheckupVM>>(_checkupService.GetCheckupsByPatient(oib)).Take(3).ToList();
-          //  checkupVMs.ToList().ForEach(c => c.TypeDescription = EnumHelper.GetDescription(c.Type));
             var dashboardVM = new PatientDashboardVM
             {
                 Patient = _mapper.Map<PatientVM>(patient),

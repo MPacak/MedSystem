@@ -23,7 +23,6 @@ namespace MedicalSystem.Controllers
         {
             var checkups = _checkupService.GetCheckupsByPatient(oib);
             var checkupVMs = _mapper.Map<IEnumerable<CheckupVM>>(checkups);
-           // checkupVMs.ToList().ForEach(c => c.TypeDescription = EnumHelper.GetDescription(c.Type));
             ViewBag.PatientOIB = oib;
             return View(checkupVMs);
         }
@@ -75,7 +74,6 @@ namespace MedicalSystem.Controllers
             {
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
 
-                // Ensure directory exists
                 if (!Directory.Exists(uploadsFolder))
                 {
                     Directory.CreateDirectory(uploadsFolder);
@@ -96,7 +94,6 @@ namespace MedicalSystem.Controllers
             } else
             {
                 var checkupVM = _mapper.Map<CheckupVM>(checkup);
-                //return View(GetTypeDescription(checkup));
                 return View(checkupVM);
             }
 
@@ -109,15 +106,8 @@ namespace MedicalSystem.Controllers
             if (checkup == null) return NotFound();
             var checkupVM = _mapper.Map<CheckupVM>(checkup);
             return View(checkupVM);
-            //return View(GetTypeDescription(checkup));
         }
-      /*  private CheckupVM GetTypeDescription(CheckupDto checkupdto)
-        {
-            var checkupVM = _mapper.Map<CheckupVM>(checkupdto);
-            Console.WriteLine($"Enum Value: {checkupVM.Type}, Description: {EnumHelper.GetDescription(checkupVM.Type)}");
-            checkupVM.TypeDescription = EnumHelper.GetDescription(checkupVM.Type);
-            return checkupVM;
-        }*/
+    
      
     }
 }

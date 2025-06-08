@@ -4116,11 +4116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\MedicalSystem.csproj",
+      "projectUniqueName": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\MedicalSystem.csproj",
       "projectName": "MedicalSystem",
-      "projectPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\MedicalSystem.csproj",
+      "projectPath": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\MedicalSystem.csproj",
       "packagesPath": "C:\\Users\\majap\\.nuget\\packages\\",
-      "outputPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\",
+      "outputPath": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4142,11 +4142,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\BL\\BL.csproj": {
-              "projectPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\BL\\BL.csproj"
+            "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\BL\\BL.csproj": {
+              "projectPath": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\BL\\BL.csproj"
             },
-            "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\DAL\\DAL.csproj"
+            "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\DAL\\DAL.csproj"
             }
           }
         }

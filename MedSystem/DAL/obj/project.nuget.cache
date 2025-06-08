@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jJ88u/7R1Hw=",
+  "dgSpecHash": "UqpPXKul2Qk=",
   "success": true,
-  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\majap\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\majap\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
