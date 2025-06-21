@@ -10,15 +10,16 @@ namespace MedicalSystem.ViewModels
 
         public string OIB { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "First name is required")]
         public string FirstName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "last name is required")]
         public string LastName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Date of birth is required")]
         public DateTime DateOfBirth { get; set; }
 
+        [Required(ErrorMessage = "Gender is required")]
         public string Gender { get; set; }
     }
 }

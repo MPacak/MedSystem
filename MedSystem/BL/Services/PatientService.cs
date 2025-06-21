@@ -3,6 +3,7 @@ using BL.DTO;
 using BL.IServices;
 using DAL.IRepositories;
 using DAL.Models;
+using FluentValidation;
 using System.Data.Entity;
 
 namespace BL.Services
@@ -12,9 +13,10 @@ namespace BL.Services
         private readonly IUnitofWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly IGenderService _genderService;
-
-        public PatientService(IUnitofWork unitOfWork, IMapper mapper, IGenderService genderService)
+        private readonly IValidator<PatientDto> _dtoValidator;
+        public PatientService(IUnitofWork unitOfWork, IMapper mapper, IGenderService genderService, IValidator<PatientDto> dtoValidator)
         {
+            _dtoValidator = dtoValidator;
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _genderService = genderService;
@@ -81,10 +83,10 @@ namespace BL.Services
         public PatientDto AddPatient(PatientDto patientDto)
         {
             var patientRepo = _unitOfWork.GetRepository<Patient>();
-
+            _dtoValidator.ValidateAndThrow(patientDto);
             if (patientRepo.Any(p => p.OIB == patientDto.OIB))
                 throw new InvalidOperationException("Patient with the given OIB already exists.");
-
+          
             var patient = _mapper.Map<Patient>(patientDto);
             patient.GenderId = _genderService.GetGenderIdByName(patientDto.Gender);
             patientRepo.Add(patient);
@@ -96,11 +98,12 @@ namespace BL.Services
         public PatientDto UpdatePatient(string oib, PatientDto patientDto)
         {
             var patientRepo = _unitOfWork.GetRepository<Patient>();
+            _dtoValidator.ValidateAndThrow(patientDto);
             var existingPatient = patientRepo.FindOne(p => p.OIB == oib);
 
             if (existingPatient == null)
                 throw new KeyNotFoundException("Patient not found.");
-
+         
             _mapper.Map(patientDto, existingPatient);
             existingPatient.GenderId = _genderService.GetGenderIdByName(patientDto.Gender);
             patientRepo.Update(existingPatient);
@@ -144,6 +147,7 @@ namespace BL.Services
 
             return _mapper.Map<IEnumerable<PrescriptionDto>>(prescriptions);
         }
+       
 
     }
 }

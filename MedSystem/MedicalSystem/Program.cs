@@ -1,10 +1,13 @@
 using BL.AutoMapper;
+using BL.DTO;
 using BL.IServices;
 using BL.Services;
 using DAL.IRepositories;
 using DAL.Models;
 using DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
+using FluentValidation.AspNetCore;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +17,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<MedicalSystemContext>(options => {
     options.UseNpgsql(builder.Configuration.GetConnectionString("MSDatabaseConnStr"));
 });
-
-Console.WriteLine(builder.Configuration.GetConnectionString("MSDatabaseConnStr"));
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<PatientDtoValidator>();
 
 builder.Services.AddScoped<IUnitofWork, UnitofWork>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));

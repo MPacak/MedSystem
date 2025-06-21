@@ -22,6 +22,16 @@
         </div>
     </div>
 
+    <div class="mb-3">
+        <label asp-for="Notes" class="form-label">Notes</label>
+        <textarea asp-for="Notes"
+                  class="form-control"
+                  rows="6"
+                  style="width:100%; min-height:150px; resize:vertical;"
+                  placeholder="Enter your checkup notes here..."></textarea>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+
     <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="List" asp-route-oib="@Model.PatientOIB" class="btn btn-secondary">Cancel</a>
 </form>

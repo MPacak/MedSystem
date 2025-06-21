@@ -1098,6 +1098,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MedicalSystem.yngq07ybzo.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalSystem</BasePath>
+      <RelativePath>uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hd2pycu01v</Fingerprint>
+      <Integrity>RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>MedicalSystem</SourceId>
@@ -1115,6 +1133,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalSystem</BasePath>
+      <RelativePath>uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iogj8i39x9</Fingerprint>
+      <Integrity>Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MedicalSystem</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MedicalSystem</BasePath>
+      <RelativePath>uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iogj8i39x9</Fingerprint>
+      <Integrity>Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

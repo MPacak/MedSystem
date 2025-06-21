@@ -5,18 +5,21 @@ using DAL.Models;
 using MedicalSystem.Utils;
 using MedicalSystem.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace MedicalSystem.Controllers
 {
     public class CheckupController : Controller
     {
         private readonly ICheckupService _checkupService;
+        IMedicalHistoryService _historyService;
         private readonly IMapper _mapper;
 
-        public CheckupController(ICheckupService checkupService, IMapper mapper)
+        public CheckupController(ICheckupService checkupService, IMapper mapper, IMedicalHistoryService historyService)
         {
             _checkupService = checkupService;
             _mapper = mapper;
+            _historyService = historyService;
         }
 
         public IActionResult List(string oib)
@@ -34,21 +37,43 @@ namespace MedicalSystem.Controllers
             {
                 return BadRequest("Invalid patient OIB.");
             }
+          
+            var vm = CreateCheckup(oib);
+           
             ViewBag.CheckupTypes = EnumHelper.GetEnumSelectList<CheckupType>();
 
-            return View(new CheckupVM { PatientOIB = oib });
+            return View(vm);
+        }
+
+        private CreateCheckupVM CreateCheckup(string oib)
+        {
+            var histories = _historyService.GetMedicalHistoryByPatient(oib);
+            var vm = new CreateCheckupVM
+            {
+                PatientOIB = oib,
+                DateTime = DateTime.Now,
+                MedicalHistories = histories
+               .Select(h => new SelectListItem
+               {
+                   Value = h.Id.ToString(),
+                   Text = h.DiseaseName
+               })
+               .ToList()
+            };
+            return vm;
         }
 
         [HttpPost]
-        public IActionResult Create(CheckupVM checkupVM)
+        public IActionResult Create(CreateCheckupVM checkupVM)
         {
             if (!ModelState.IsValid)
             {
+                var vm = CreateCheckup(checkupVM.PatientOIB);
                 ViewBag.CheckupTypes = EnumHelper.GetEnumSelectList<CheckupType>();
                 return View(checkupVM);
             }
 
-            var checkupDto = _mapper.Map<CheckupDto>(checkupVM);
+            var checkupDto = _mapper.Map<CreateCheckupDto>(checkupVM);
             _checkupService.AddCheckup(checkupDto);
 
             return RedirectToAction("List", new { oib = checkupVM.PatientOIB });
@@ -65,12 +90,19 @@ namespace MedicalSystem.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(int id, IFormFile image)
+        public IActionResult Edit(int id, CheckupVM vm, IFormFile image)
         {
             var checkup = _checkupService.GetCheckupById(id);
             if (checkup == null) return NotFound();
+            bool hasNotes = !string.IsNullOrWhiteSpace(vm.Notes);
+            bool hasImage = image != null && image.Length > 0;
+            if (!hasNotes && !hasImage)
+            {
+                ViewBag.CheckupTypes = EnumHelper.GetEnumSelectList<CheckupType>(); 
+                return View(vm);
+            }
 
-            if (image != null && image.Length > 0)
+            if (hasImage)
             {
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
 
@@ -89,15 +121,10 @@ namespace MedicalSystem.Controllers
 
                 checkup.PicturePath = $"/uploads/{uniqueFileName}";
 
-                _checkupService.UpdateCheckup(id, checkup);
-                return RedirectToAction("List", new { oib = checkup.PatientOIB });
-            } else
-            {
-                var checkupVM = _mapper.Map<CheckupVM>(checkup);
-                return View(checkupVM);
             }
-
-            
+            checkup.Notes = vm.Notes;
+            _checkupService.UpdateCheckup(id, checkup);
+            return RedirectToAction("List", new { oib = checkup.PatientOIB });
         }
 
         public IActionResult Details(int id)

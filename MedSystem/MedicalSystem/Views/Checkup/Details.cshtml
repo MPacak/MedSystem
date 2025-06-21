@@ -12,7 +12,7 @@
 
 <div class="mb-3">
     <label class="fw-bold">Date and Time:</label>
-    <p>@Model.DateTime.ToString("yyyy-MM-dd HH:mm")</p>
+    <p>@Model.DateTime</p>
 </div>
 
 <div class="mb-3">
@@ -21,16 +21,26 @@
 </div>
 
 <div class="mb-3">
-    <label class="fw-bold">Checkup Image:</label>
-    <br>
-    @if (!string.IsNullOrEmpty(Model.PicturePath))
-    {
-        <img src="@Model.PicturePath" alt="Checkup Image" class="img-fluid" style="max-width: 300px; max-height: 300px; border-radius: 5px;" />
-    }
-    else
-    {
-        <p>No Image Available</p>
-    }
+    <label class="fw-bold">Notes / Image:</label>
+    <div>
+        @if (!string.IsNullOrWhiteSpace(Model.Notes))
+        {
+            <div style="white-space: pre-wrap; border:1px solid #ccc; padding:10px; border-radius:4px;">
+                @Model.Notes
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(Model.PicturePath))
+        {
+            <img src="@Model.PicturePath"
+                 alt="Checkup Image"
+                 class="img-fluid"
+                 style="max-width:300px; max-height:300px; border-radius:5px;" />
+        }
+        else
+        {
+            <p><em>No notes or image available.</em></p>
+        }
+    </div>
 </div>
 
 <a asp-action="List" asp-route-oib="@Model.PatientOIB" class="btn btn-secondary">Back to List</a>

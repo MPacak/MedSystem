@@ -25,5 +25,7 @@ namespace DAL.Models
         public DateTime StartDate { get; set; }
 
         public DateTime? EndDate { get; set; }
+        public ICollection<Checkup> Checkups { get; set; } = new List<Checkup>();
+        public ICollection<Prescription> Prescriptions { get; set; } = new List<Prescription>();
     }
 }

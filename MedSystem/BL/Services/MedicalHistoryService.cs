@@ -3,6 +3,7 @@ using BL.DTO;
 using BL.IServices;
 using DAL.IRepositories;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BL.Services
 {
@@ -25,8 +26,6 @@ namespace BL.Services
             var medicalHistory = _mapper.Map<MedicalHistory>(medicalHistoryDto);
             medicalHistory.DiseaseId = _service.GetDIseaseIdByName(medicalHistoryDto.DiseaseName);
             historyRepo.Add(medicalHistory);
-
-          
           
             _unitOfWork.Save();
 
@@ -53,27 +52,30 @@ namespace BL.Services
         {
             var historyRepo = _unitOfWork.GetRepository<MedicalHistory>();
             var histories = historyRepo.Find(h => h.PatientOIB == patientOIB);
-     
-            return GetDiseasesForAll(histories);
+
+            var query = _unitOfWork
+             .GetRepository<MedicalHistory>()
+             .Find(h => h.PatientOIB == patientOIB)
+             .Include(h => h.Disease)
+             .Include(h => h.Checkups)
+             .Include(h => h.Prescriptions)
+              .ThenInclude(p => p.Drug);
+            return _mapper.Map<IEnumerable<MedicalHistoryDto>>(query);
+               
         }
         public MedicalHistoryDto GetMedicalHistoryById(int id)
         {
-            var historyRepo = _unitOfWork.GetRepository<MedicalHistory>();
-            var histories = historyRepo.FindOne(h => h.Id == id);
-            var historiesDto = _mapper.Map<MedicalHistoryDto>(histories);
-            historiesDto.DiseaseName = _service.GetDiseaseNameById(histories.DiseaseId);
-            return historiesDto;
-        }
-       private IEnumerable<MedicalHistoryDto> GetDiseasesForAll(IQueryable<MedicalHistory> histories)
-        {
-            var historiesDto = _mapper.Map<IEnumerable<MedicalHistoryDto>>(histories);
-            foreach (var dto in historiesDto)
-            {
-                dto.DiseaseName = _service.GetDiseaseNameById(histories.First(h => h.Id == dto.Id).DiseaseId);
-                    
 
-            }
+               var query = _unitOfWork
+            .GetRepository<MedicalHistory>()
+            .Find(h => h.Id == id)                  
+            .Include(h => h.Disease)
+            .Include(h => h.Checkups)
+            .Include(h => h.Prescriptions)
+             .ThenInclude(p => p.Drug);
+            var historiesDto = _mapper.Map<MedicalHistoryDto>(query.FirstOrDefault());
             return historiesDto;
         }
+    
     }
 }

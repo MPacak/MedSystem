@@ -14,5 +14,7 @@ namespace MedicalSystem.ViewModels
 
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
+        public List<CheckupVM> Checkups { get; set; } = new List<CheckupVM>();
+        public List<PrescriptionVM> Prescriptions { get; set; } = new List<PrescriptionVM>();
     }
 }

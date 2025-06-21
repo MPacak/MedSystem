@@ -3,6 +3,7 @@ using BL.DTO;
 using BL.IServices;
 using DAL.IRepositories;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BL.Services
 {
@@ -17,7 +18,7 @@ namespace BL.Services
             _mapper = mapper;
         }
 
-        public PrescriptionDto AddPrescription(PrescriptionDto prescriptionDto)
+        public PrescriptionDto AddPrescription(CreatePrescriptionDto prescriptionDto)
         {
             var prescriptionRepo = _unitOfWork.GetRepository<Prescription>();
             var drugRepo = _unitOfWork.GetRepository<Drug>();
@@ -47,13 +48,17 @@ namespace BL.Services
         public IEnumerable<PrescriptionDto> GetPrescriptionsByPatient(string patientOIB)
         {
             var prescriptionRepo = _unitOfWork.GetRepository<Prescription>();
-            var prescriptions = prescriptionRepo.Find(p => p.PatientOIB == patientOIB);
-            var prescriptionDto = _mapper.Map<IEnumerable<PrescriptionDto>>(prescriptions);
-            foreach (var p in prescriptionDto)
+            var prescriptions = prescriptionRepo
+              .Find(p => p.PatientOIB == patientOIB)              
+              .Include(p => p.Drug)                               
+              .Include(p => p.MedicalHistory)                   
+              .ThenInclude(mh => mh.Disease);
+
+           return _mapper.Map<IEnumerable<PrescriptionDto>>(prescriptions);
+           /* foreach (var p in prescriptionDto)
             {
                 p.DrugName = GetDrugByID(p.Id);
-            }
-            return prescriptionDto;
+            }*/
         }
         private IEnumerable<DrugDto> GetAllDrugs()
         {

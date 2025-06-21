@@ -19,5 +19,20 @@ namespace BL.DTO
         public int Dose { get; set; }
 
         public DoseType DoseType { get; set; }
+
+        public string DiseaseName { get; set; }
+    }
+    public class CreatePrescriptionDto
+    {
+        public string PatientOIB { get; set; }
+        public string DrugName { get; set; }
+
+        public DateTime Date { get; set; }
+
+        public int Dose { get; set; }
+
+        public DoseType DoseType { get; set; }
+
+        public int MedicalHistoryId { get; set; }
     }
 }

@@ -22,10 +22,7 @@
                 <td>@checkup.DateTime.ToShortDateString()</td>
       
                 <td>
-                    @if (checkup.PicturePath == null)
-                    {
-                        <a asp-action="Edit" asp-route-id="@checkup.Id" class="btn btn-warning btn-sm">Upload Image</a>
-                    }
+                    <a asp-action="Edit" asp-route-id="@checkup.Id" class="btn btn-warning btn-sm">Add information</a>
                     <a asp-action="Details" asp-route-id="@checkup.Id" class="btn btn-info btn-sm">View Details</a>
                 </td>
             </tr>

@@ -17,10 +17,17 @@ namespace BL.Services
             _mapper = mapper;
         }
 
-        public CheckupDto AddCheckup(CheckupDto checkupDto)
+        public CheckupDto AddCheckup(CreateCheckupDto dto)
         {
             var checkupRepo = _unitOfWork.GetRepository<Checkup>();
-            var checkup = _mapper.Map<Checkup>(checkupDto);
+            var checkup = new Checkup
+            {
+                PatientOIB = dto.PatientOIB,
+                Type = dto.Type,
+                DateTime = dto.DateTime,
+                MedicalHistoryId = dto.MedicalHistoryId,
+            };
+          //  var checkup = _mapper.Map<Checkup>(checkupDto);
             checkupRepo.Add(checkup);
             _unitOfWork.Save();
 

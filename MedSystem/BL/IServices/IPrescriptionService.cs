@@ -5,7 +5,7 @@ namespace BL.IServices
 {
     public interface IPrescriptionService
     {
-        PrescriptionDto AddPrescription(PrescriptionDto prescriptionDto);
+        PrescriptionDto AddPrescription(CreatePrescriptionDto prescriptionDto);
         PrescriptionDto UpdatePrescription(int prescriptionId, PrescriptionDto prescriptionDto);
         IEnumerable<PrescriptionDto> GetPrescriptionsByPatient(string patientOIB);
         IList<string> GetAllDrugNames();

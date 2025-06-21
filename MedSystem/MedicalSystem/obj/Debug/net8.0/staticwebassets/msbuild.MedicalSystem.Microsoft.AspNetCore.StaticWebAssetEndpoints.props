@@ -732,6 +732,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yngq07ybzo"},{"Name":"integrity","Value":"sha256-3jK9IBEcA0VRyfrCWn4VW/6nglVj2oYpaf9mIQWdd\u002BQ="},{"Name":"label","Value":"_content/MedicalSystem/MedicalSystem.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223jK9IBEcA0VRyfrCWn4VW/6nglVj2oYpaf9mIQWdd\u002BQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 16:36:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.hd2pycu01v.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hd2pycu01v"},{"Name":"integrity","Value":"sha256-RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw="},{"Name":"label","Value":"_content/MedicalSystem/uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6069633"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Jun 2025 14:33:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6069633"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Jun 2025 14:33:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -743,6 +755,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pri150uafm"},{"Name":"integrity","Value":"sha256-u2XVS9IEYe758HWKqFfyaZIRFJMGhsvhBxgRUlVkZBo="},{"Name":"label","Value":"_content/MedicalSystem/uploads/845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4070843"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022u2XVS9IEYe758HWKqFfyaZIRFJMGhsvhBxgRUlVkZBo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 21:44:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.iogj8i39x9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iogj8i39x9"},{"Name":"integrity","Value":"sha256-Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="},{"Name":"label","Value":"_content/MedicalSystem/uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 11:33:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 11:33:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.iogj8i39x9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iogj8i39x9"},{"Name":"integrity","Value":"sha256-Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="},{"Name":"label","Value":"_content/MedicalSystem/uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 07:31:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MedicalSystem/uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5422"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Mttcx\u002B5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 07:31:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

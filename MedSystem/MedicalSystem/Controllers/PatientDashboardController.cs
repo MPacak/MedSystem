@@ -48,22 +48,53 @@ namespace MedicalSystem.Controllers
             var patient = _patientService.GetPatientByOIB(oib);
             if (patient == null) return NotFound();
 
-            var medicalHistory = _medicalHistoryService.GetMedicalHistoryByPatient(oib);
-            var checkups = _checkupService.GetCheckupsByPatient(oib);
-            var prescriptions = _prescriptionService.GetPrescriptionsByPatient(oib);
+            var histories = _medicalHistoryService.GetMedicalHistoryByPatient(oib);
 
             var csv = new StringBuilder();
-            csv.AppendLine("OIB,First Name,Last Name,Date of Birth,Gender,Medical History,Checkups,Prescriptions");
+            csv.Append('\uFEFF');
+            csv.AppendLine("OIB,First Name,Last Name,Date of Birth,Gender," +
+                           "Disease,Start Date,End Date,Checkups,Prescriptions");
+            if (!histories.Any())
+            {
+               
+                csv.AppendLine(
+                    $"{patient.OIB}," +
+                    $"{patient.FirstName}," +
+                    $"{patient.LastName}," +
+                    $"{patient.DateOfBirth:yyyy-MM-dd}," +
+                    $"{patient.Gender}," +
+                    ",,,,"
+                );
+            } else
+            {
+                foreach (var h in histories)
+                {
+                    var checkupData = string.Join(" | ",
+                        h.Checkups.Select(c =>
+                            $"{EnumHelper.GetDescription(c.Type)} on {c.DateTime:yyyy-MM-dd}"));
 
-            var medicalHistoryData = string.Join(" | ", medicalHistory.Select(m => $"{m.DiseaseName}: {m.StartDate:yyyy-MM-dd} - {m.EndDate:yyyy-MM-dd}"));
-            var checkupData = string.Join(" | ", checkups.Select(c => $"{EnumHelper.GetDescription(c.Type)} on {c.DateTime:yyyy-MM-dd}"));
-            var prescriptionData = string.Join(" | ", prescriptions.Select(p => $"{p.DrugName} - {p.Dose} {p.DoseType}"));
+                    var prescriptionData = string.Join(" | ",
+                        h.Prescriptions.Select(p =>
+                            $"{p.DrugName} – {p.Dose} {p.DoseType}"));
 
-            csv.AppendLine($"{patient.OIB},{patient.FirstName},{patient.LastName}," +
-                           $"{patient.DateOfBirth.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)}," +
-                           $"{patient.Gender},{medicalHistoryData},{checkupData},{prescriptionData}");
+                    csv.AppendLine(
+                        $"{patient.OIB}," +
+                        $"{patient.FirstName}," +
+                        $"{patient.LastName}," +
+                        $"{patient.DateOfBirth:yyyy-MM-dd}," +
+                        $"{patient.Gender}," +
+                        $"{h.DiseaseName}," +
+                        $"{h.StartDate:yyyy-MM-dd}," +
+                        $"{(h.EndDate.HasValue ? h.EndDate.Value.ToString("yyyy-MM-dd") : "")}," +
+                        $"\"{checkupData}\"," +
+                        $"\"{prescriptionData}\""
+                    );
+                }
+            }
+          
 
-            return File(Encoding.UTF8.GetBytes(csv.ToString()), "text/csv", $"Patient_{oib}_Data.csv");
+            var bytes = Encoding.UTF8.GetBytes(csv.ToString());
+            return File(bytes, "text/csv", $"Patient_{oib}_Data.csv");
         }
 
     }

@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using X.PagedList;
 using X.PagedList.Extensions;
 using X.PagedList.Mvc.Core;
+using FluentValidation;
 
 namespace MedicalSystem.Controllers
 {
@@ -70,9 +71,23 @@ namespace MedicalSystem.Controllers
                 return View(patientVM);
             }
             var patientDto = _mapper.Map<PatientDto>(patientVM);
-            _patientService.AddPatient(patientDto);
+            try
+            {
+                _patientService.AddPatient(patientDto);
+                return RedirectToAction("Index");
+            }
+            catch (ValidationException ex) 
+            {
+                foreach (var err in ex.Errors)
+                    ModelState.AddModelError(err.PropertyName, err.ErrorMessage);
+            }
+            catch (Exception ex) 
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
 
-            return RedirectToAction("Index");
+            ViewBag.Genders = GetGenderSelectList();
+            return View(patientVM);
         }
 
         public IActionResult Edit(string oib)
@@ -81,18 +96,37 @@ namespace MedicalSystem.Controllers
             if (patient == null) return NotFound();
 
             var patientVM = _mapper.Map<PatientVM>(patient);
+            ViewBag.Genders = GetGenderSelectList();
             return View(patientVM);
         }
 
         [HttpPost]
         public IActionResult Edit(string oib, PatientVM patientVM)
         {
-            if (!ModelState.IsValid) return View(patientVM);
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Genders = GetGenderSelectList();
+                return View(patientVM);
+            }
 
             var patientDto = _mapper.Map<PatientDto>(patientVM);
-            _patientService.UpdatePatient(oib, patientDto);
+            try
+            {
+                _patientService.UpdatePatient(oib, patientDto);
+                return RedirectToAction("Index");
+            }
+            catch (ValidationException ex)
+            {
+                foreach (var err in ex.Errors)
+                    ModelState.AddModelError(err.PropertyName, err.ErrorMessage);
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
 
-            return RedirectToAction("Index");
+            ViewBag.Genders = GetGenderSelectList();
+            return View(patientVM);
         }
     }
 }

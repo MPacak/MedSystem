@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Klayu6h6AAKRTpoSN3oKO9YeVQ3lanEDB6hMBp4D4EY=",
+  "Hash": "ohUDdpy16yVsZWdQdz9FKv5yxTdcwmoqx78yKFpuo4Q=",
   "Source": "MedicalSystem",
   "BasePath": "_content/MedicalSystem",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MedicalSystem\\wwwroot",
       "Source": "MedicalSystem",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "MedicalSystem#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "3jK9IBEcA0VRyfrCWn4VW/6nglVj2oYpaf9mIQWdd+Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css"
+      "OriginalItemSpec": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "MedicalSystem#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "3jK9IBEcA0VRyfrCWn4VW/6nglVj2oYpaf9mIQWdd+Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1319,10 +1319,31 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg",
       "SourceId": "MedicalSystem",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "BasePath": "_content/MedicalSystem",
+      "RelativePath": "uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hd2pycu01v",
+      "Integrity": "RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg"
+    },
+    {
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
+      "SourceId": "MedicalSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
       "BasePath": "_content/MedicalSystem",
       "RelativePath": "uploads/845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1338,12 +1359,54 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg"
+    },
+    {
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png",
+      "SourceId": "MedicalSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "BasePath": "_content/MedicalSystem",
+      "RelativePath": "uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iogj8i39x9",
+      "Integrity": "Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png"
+    },
+    {
+      "Identity": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png",
+      "SourceId": "MedicalSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\",
+      "BasePath": "_content/MedicalSystem",
+      "RelativePath": "uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iogj8i39x9",
+      "Integrity": "Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png"
     }
   ],
   "Endpoints": [
     {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1388,7 +1451,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1425,7 +1488,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1470,7 +1533,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1507,7 +1570,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1544,7 +1607,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1589,7 +1652,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1626,7 +1689,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1671,7 +1734,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1708,7 +1771,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1753,7 +1816,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1790,7 +1853,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1835,7 +1898,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1872,7 +1935,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1917,7 +1980,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1954,7 +2017,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1999,7 +2062,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2036,7 +2099,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2081,7 +2144,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2118,7 +2181,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2163,7 +2226,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2200,7 +2263,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2245,7 +2308,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2290,7 +2353,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2327,7 +2390,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2364,7 +2427,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2409,7 +2472,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2446,7 +2509,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2491,7 +2554,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2528,7 +2591,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2573,7 +2636,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2610,7 +2673,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2655,7 +2718,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2692,7 +2755,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2729,7 +2792,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2766,7 +2829,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2811,7 +2874,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2856,7 +2919,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2901,7 +2964,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2946,7 +3009,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2983,7 +3046,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3028,7 +3091,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3065,7 +3128,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3102,7 +3165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3139,7 +3202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3184,7 +3247,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3229,7 +3292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3274,7 +3337,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3311,7 +3374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3356,7 +3419,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3393,7 +3456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3430,7 +3493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3467,7 +3530,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3512,7 +3575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3557,7 +3620,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3594,7 +3657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3639,7 +3702,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3676,7 +3739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3721,7 +3784,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3758,7 +3821,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3795,7 +3858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3840,7 +3903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3885,7 +3948,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3922,7 +3985,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3967,7 +4030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4004,7 +4067,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4041,7 +4104,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4086,7 +4149,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4123,7 +4186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4168,7 +4231,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4213,7 +4276,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4250,7 +4313,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4295,7 +4358,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4332,7 +4395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4377,7 +4440,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4422,7 +4485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4459,7 +4522,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4504,7 +4567,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4541,7 +4604,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4578,7 +4641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4623,7 +4686,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4660,7 +4723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4705,7 +4768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4742,7 +4805,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4779,7 +4842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4824,7 +4887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4869,7 +4932,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4906,7 +4969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4951,7 +5014,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4988,7 +5051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5025,7 +5088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5062,7 +5125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5107,7 +5170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5152,7 +5215,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5197,7 +5260,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5234,7 +5297,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5279,7 +5342,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5324,7 +5387,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5361,7 +5424,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5406,7 +5469,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5451,7 +5514,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5488,7 +5551,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5525,7 +5588,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5570,7 +5633,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5607,7 +5670,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5652,7 +5715,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5689,7 +5752,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5734,7 +5797,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5771,7 +5834,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5808,7 +5871,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5853,7 +5916,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5890,7 +5953,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5935,7 +5998,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5972,7 +6035,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6017,7 +6080,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6062,7 +6125,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6099,7 +6162,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6144,7 +6207,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6181,7 +6244,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6226,7 +6289,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6263,7 +6326,7 @@
     },
     {
       "Route": "MedicalSystem.bundle.scp.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6300,7 +6363,7 @@
     },
     {
       "Route": "MedicalSystem.styles.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6337,7 +6400,7 @@
     },
     {
       "Route": "MedicalSystem.yngq07ybzo.bundle.scp.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MedicalSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6382,7 +6445,7 @@
     },
     {
       "Route": "MedicalSystem.yngq07ybzo.styles.css",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MedicalSystem.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6426,8 +6489,90 @@
       ]
     },
     {
+      "Route": "uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.hd2pycu01v.jpg",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6069633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 14:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hd2pycu01v"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\2a31c117-e0a6-47a9-883a-5369c7074aee_hyaluron-serum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6069633"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Jun 2025 14:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RcrJPQe1yhMUxJl8mhOCy/ix2kvgCfjNCjEEvvTYZHw="
+        }
+      ]
+    },
+    {
       "Route": "uploads/845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6464,7 +6609,7 @@
     },
     {
       "Route": "uploads/845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.pri150uafm.jpg",
-      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\Projekt\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\845a238b-51da-4d41-8018-b021a0afe1e6_20220624_130519.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6504,6 +6649,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-u2XVS9IEYe758HWKqFfyaZIRFJMGhsvhBxgRUlVkZBo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.iogj8i39x9.png",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 11:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iogj8i39x9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\a4213805-bcdc-46f5-aac3-d8f6cdc6c70e_logo_dizajn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 11:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.iogj8i39x9.png",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 07:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iogj8i39x9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png",
+      "AssetFile": "D:\\Faks\\3. godina\\PPPK\\MedSystem\\MedSystem\\MedicalSystem\\wwwroot\\uploads\\cde70ecd-2a06-42ae-9168-a8e961abb441_logo_dizajn.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 21 Jun 2025 07:31:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mttcx+5NjoFpvfnAljG6MLCHxZCiv9CzYKbMtPLK8YI="
         }
       ]
     }

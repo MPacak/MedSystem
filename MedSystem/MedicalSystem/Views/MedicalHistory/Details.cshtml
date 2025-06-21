@@ -1,0 +1,108 @@
+﻿@model MedicalSystem.ViewModels.MedicalHistoryVM
+
+<h2>History Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">Disease</dt>
+    <dd class="col-sm-10">@Model.DiseaseName</dd>
+
+    <dt class="col-sm-2">Start Date</dt>
+    <dd class="col-sm-10">@Model.StartDate</dd>
+
+    <dt class="col-sm-2">End Date</dt>
+    <dd class="col-sm-10">
+        @(Model.EndDate.HasValue ? Model.EndDate.Value.ToString("d") : "—")
+    </dd>
+</dl>
+
+<h3>Checkups</h3>
+@if (!Model.Checkups.Any())
+{
+    <p><em>No checkups recorded.</em></p>
+}
+else
+{
+    <details>
+        <summary>Show all checkups (@Model.Checkups.Count)</summary>
+        <table class="table table-sm mt-2">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Disease</th>
+                    <th>Notes</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model.Checkups)
+                {
+                    <tr>
+                        <td>@c.DateTime</td>
+                        <td>@c.TypeDescription</td>
+                        <td>@c.DiseaseName</td>
+                        <td style="white-space:pre-wrap">@c.Notes</td>
+                        <td>
+                            <a asp-action="Details"
+                               asp-controller="Checkup"
+                               asp-route-id="@c.Id">
+                                View
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </details>
+}
+
+<h3 class="mt-4">Prescriptions</h3>
+@if (!Model.Prescriptions.Any())
+{
+    <p><em>No prescriptions recorded.</em></p>
+}
+else
+{
+    <details>
+        <summary>Show all prescriptions (@Model.Prescriptions.Count)</summary>
+        <table class="table table-sm mt-2">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Drug</th>
+                    <th>Dosage</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model.Prescriptions)
+                {
+                    <tr>
+                        <td>@p.Date</td>
+                        <td>@p.DrugName</td>
+                        <td>@($"{p.Dose} {p.DoseType}")</td>
+                        <td>
+                            <a asp-action="Details"
+                               asp-controller="Prescription"
+                               asp-route-id="@p.Id">
+                                View
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </details>
+}
+
+<p class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary me-2">
+        Edit History
+    </a>
+    <a asp-action="Create" asp-controller="Checkup" asp-route-oib="@Model.PatientOIB" class="btn btn-success me-2">
+        Add Checkup
+    </a>
+    <a asp-action="List" asp-route-oib="@Model.PatientOIB" class="btn btn-secondary">
+        Back to List
+    </a>
+</p>

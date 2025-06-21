@@ -4,7 +4,7 @@ namespace BL.IServices
 {
     public interface ICheckupService
     {
-        CheckupDto AddCheckup(CheckupDto checkupDto);
+        CheckupDto AddCheckup(CreateCheckupDto checkupDto);
         CheckupDto UpdateCheckup(int checkupId, CheckupDto checkupDto);
         IEnumerable<CheckupDto> GetCheckupsByPatient(string patientOIB);
         CheckupDto GetCheckupById(int checkupId);

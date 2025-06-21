@@ -33,6 +33,12 @@ namespace DAL.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("timestamp without time zone");
 
+                    b.Property<int>("MedicalHistoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("text");
+
                     b.Property<string>("PatientOIB")
                         .IsRequired()
                         .HasColumnType("text");
@@ -44,6 +50,8 @@ namespace DAL.Migrations
                         .HasColumnType("integer");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MedicalHistoryId");
 
                     b.HasIndex("PatientOIB");
 
@@ -190,6 +198,9 @@ namespace DAL.Migrations
                     b.Property<int>("DrugId")
                         .HasColumnType("integer");
 
+                    b.Property<int>("MedicalHistoryId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("PatientOIB")
                         .IsRequired()
                         .HasColumnType("text");
@@ -198,6 +209,8 @@ namespace DAL.Migrations
 
                     b.HasIndex("DrugId");
 
+                    b.HasIndex("MedicalHistoryId");
+
                     b.HasIndex("PatientOIB");
 
                     b.ToTable("Prescriptions");
@@ -205,11 +218,19 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("DAL.Models.Checkup", b =>
                 {
+                    b.HasOne("DAL.Models.MedicalHistory", "MedicalHistory")
+                        .WithMany("Checkups")
+                        .HasForeignKey("MedicalHistoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("DAL.Models.Patient", "Patient")
                         .WithMany()
                         .HasForeignKey("PatientOIB")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("MedicalHistory");
 
                     b.Navigation("Patient");
                 });
@@ -252,6 +273,12 @@ namespace DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("DAL.Models.MedicalHistory", "MedicalHistory")
+                        .WithMany("Prescriptions")
+                        .HasForeignKey("MedicalHistoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("DAL.Models.Patient", "Patient")
                         .WithMany()
                         .HasForeignKey("PatientOIB")
@@ -260,7 +287,16 @@ namespace DAL.Migrations
 
                     b.Navigation("Drug");
 
+                    b.Navigation("MedicalHistory");
+
                     b.Navigation("Patient");
+                });
+
+            modelBuilder.Entity("DAL.Models.MedicalHistory", b =>
+                {
+                    b.Navigation("Checkups");
+
+                    b.Navigation("Prescriptions");
                 });
 #pragma warning restore 612, 618
         }

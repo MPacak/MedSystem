@@ -23,6 +23,10 @@ namespace DAL.Models
         [Required]
         public DateTime DateTime { get; set; }
 
-        public string? PicturePath { get; set; } 
+        public string? PicturePath { get; set; }
+        [ForeignKey("MedicalHistory")]
+        public int MedicalHistoryId { get; set; }
+        public MedicalHistory MedicalHistory { get; set; }
+        public string? Notes { get; set; }
     }
 }

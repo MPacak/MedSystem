@@ -13,6 +13,7 @@ namespace BL.DTO
         public string DiseaseName { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
-
+        public List<CheckupDto> Checkups { get; set; } = new List<CheckupDto>();
+        public List<PrescriptionDto> Prescriptions { get; set; } = new List<PrescriptionDto>();
     }
 }

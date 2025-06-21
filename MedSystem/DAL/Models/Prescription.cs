@@ -25,7 +25,10 @@ namespace DAL.Models
         public DateTime Date { get; set; }
         [Required]
         public int Dose { get; set; }
-       
-       
+        [Required]
+        [ForeignKey("MedicalHistory")]
+        public int MedicalHistoryId { get; set; }
+        public MedicalHistory MedicalHistory { get; set; }
+
     }
 }

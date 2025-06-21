@@ -85,5 +85,19 @@ namespace MedicalSystem.Controllers
 
             return RedirectToAction("List", new { oib = historyVM.PatientOIB });
         }
+        public IActionResult Details(int id)
+        {
+            var historyDto = _medicalHistoryService.GetMedicalHistoryById(id);
+            if (historyDto == null)
+                return NotFound();
+
+            var vm = _mapper.Map<MedicalHistoryVM>(historyDto);
+            vm.Checkups = vm.Checkups
+                             .OrderByDescending(c => c.DateTime)
+                             .ToList();
+            vm.Prescriptions = vm.Prescriptions.OrderByDescending(p => p.Date).ToList();
+
+            return View(vm);
+        }
     }
 }
