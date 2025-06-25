@@ -75,6 +75,32 @@ namespace DAL.Migrations
                     b.ToTable("Diseases");
                 });
 
+            modelBuilder.Entity("DAL.Models.Doctor", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PwdHash")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PwdSalt")
+                        .HasColumnType("text");
+
+                    b.Property<string>("SecurityToken")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Doctor");
+                });
+
             modelBuilder.Entity("DAL.Models.Drug", b =>
                 {
                     b.Property<int>("Id")

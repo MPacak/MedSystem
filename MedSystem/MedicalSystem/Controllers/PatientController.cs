@@ -1,22 +1,17 @@
 ﻿using AutoMapper;
 using BL.DTO;
 using BL.IServices;
-using BL.Services;
 using MedicalSystem.ViewModels;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using X.PagedList;
 using X.PagedList.Extensions;
-using X.PagedList.Mvc.Core;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MedicalSystem.Controllers
 {
     public class PatientController : Controller
     {
-        // GET: PatientController
         private readonly IPatientService _patientService;
         private readonly IGenderService _genderService;
         private readonly IMapper _mapper;
@@ -27,7 +22,7 @@ namespace MedicalSystem.Controllers
             _genderService = genderService;
             _mapper = mapper;
         }
-
+        [Authorize]
         public IActionResult Index(string searchTerm, int? page, int pageSize = 10)
         {
             int pageNumber = page ?? 1;
@@ -40,6 +35,7 @@ namespace MedicalSystem.Controllers
 
             return View(patientVMs.ToPagedList(pageNumber, pageSize));
         }
+        [Authorize]
 
         public IActionResult Details(string oib)
         {
@@ -49,7 +45,7 @@ namespace MedicalSystem.Controllers
             var patientVM = _mapper.Map<PatientVM>(patient);
             return View(patientVM);
         }
-
+        [Authorize]
         public IActionResult Create()
         {
             ViewBag.Genders = GetGenderSelectList();
@@ -61,7 +57,7 @@ namespace MedicalSystem.Controllers
             var genders = _genderService.GetGenderTypeList();
             return genders.Select(g => new SelectListItem { Value = g.Type, Text = g.Type }).ToList();
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Create(PatientVM patientVM)
         {
@@ -89,7 +85,7 @@ namespace MedicalSystem.Controllers
             ViewBag.Genders = GetGenderSelectList();
             return View(patientVM);
         }
-
+        [Authorize]
         public IActionResult Edit(string oib)
         {
             var patient = _patientService.GetPatientByOIB(oib);
@@ -99,7 +95,7 @@ namespace MedicalSystem.Controllers
             ViewBag.Genders = GetGenderSelectList();
             return View(patientVM);
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Edit(string oib, PatientVM patientVM)
         {

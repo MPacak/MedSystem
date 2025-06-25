@@ -12,12 +12,9 @@ namespace DAL.Models
     {
         public MedicalSystemContext(DbContextOptions<MedicalSystemContext> options) : base(options)
          {
-            // Database.SetCommandTimeout(TimeSpan.FromMinutes(5));
+
          }
 
-        /* public const string CONNECTION_STRING = @"
-            Host=severely-champion-ling.data-1.use1.tembo.io;Port=5432;Username=postgres;Password=Yme5WV0N40FMmQH4;Database=postgres;SSL Mode=Require
-        ";*/
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Gender> Genders { get; set; }
         public DbSet<Disease> Diseases { get; set; }
@@ -25,6 +22,7 @@ namespace DAL.Models
         public DbSet<MedicalHistory> MedicalHistories { get; set; }
         public DbSet<Drug> Drugs { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
+        public DbSet<Doctor> Doctor { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

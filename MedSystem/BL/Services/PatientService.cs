@@ -74,7 +74,7 @@ namespace BL.Services
             }
             else
             {
-                patients = patientRepo.Find(p => p.OIB.Contains(query) || p.LastName.Contains(query));
+                patients = patientRepo.Find(p => p.OIB.Contains(query) || p.LastName.ToLower().Contains(query.ToLower()));
             }
 
             return GetGenderForAll(patients);

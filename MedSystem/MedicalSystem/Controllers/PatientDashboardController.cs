@@ -2,6 +2,7 @@
 using BL.IServices;
 using MedicalSystem.Utils;
 using MedicalSystem.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 using System.Text;
@@ -26,7 +27,7 @@ namespace MedicalSystem.Controllers
             _prescriptionService = prescriptionService;
             _mapper = mapper;
         }
-
+        [Authorize]
         public IActionResult Index(string oib)
         {
             var patient = _patientService.GetPatientByOIB(oib);

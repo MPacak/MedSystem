@@ -3,6 +3,7 @@ using BL.DTO;
 using BL.IServices;
 using BL.Services;
 using MedicalSystem.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -20,7 +21,7 @@ namespace MedicalSystem.Controllers
             _mapper = mapper;
             _diseaseService = diseaseService;
         }
-
+        [Authorize]
         public IActionResult List(string oib)
         {
             var history = _medicalHistoryService.GetMedicalHistoryByPatient(oib);
@@ -30,7 +31,7 @@ namespace MedicalSystem.Controllers
          
             return View(historyVMs);
         }
-
+        [Authorize]
         public IActionResult Create(string oib)
         {
 
@@ -51,7 +52,7 @@ namespace MedicalSystem.Controllers
             return diseases.Select(g => new SelectListItem { Value = g.Name, Text = g.Name }).ToList();
         
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Create(MedicalHistoryVM historyVM)
         {
@@ -66,6 +67,7 @@ namespace MedicalSystem.Controllers
 
             return RedirectToAction("List", new { oib = historyVM.PatientOIB });
         }
+        [Authorize]
         public IActionResult Edit(int id)
         {
             var history = _medicalHistoryService.GetMedicalHistoryById(id);
@@ -74,7 +76,7 @@ namespace MedicalSystem.Controllers
             var historyVM = _mapper.Map<MedicalHistoryVM>(history);
             return View(historyVM);
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Edit(int id, MedicalHistoryVM historyVM)
         {
@@ -85,6 +87,7 @@ namespace MedicalSystem.Controllers
 
             return RedirectToAction("List", new { oib = historyVM.PatientOIB });
         }
+        [Authorize]
         public IActionResult Details(int id)
         {
             var historyDto = _medicalHistoryService.GetMedicalHistoryById(id);
